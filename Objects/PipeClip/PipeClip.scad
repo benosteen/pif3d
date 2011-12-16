@@ -60,11 +60,11 @@ for (xo = [-xlim:xlim])
     for (yo = [-ylim:ylim])
     {
         translate([xo*p,yo*p,0])
-            PipeClip(l, w, 8, 5.75, 4.75, 6, 3, 1);
+            PipeClip(l, w, 9, 5.75, 4.75, 5, 3.5, 1);
     }
 }
 
 
 //PipeClip(15, 8, 10, 7, 6, 6, 3, 1);
 
-//translate([0,-20,0]) countersink(6, 12, 3, 6, 1);
+//translate([0,-20,0]) countersink(6, 12, 3.5, 5, 1);
